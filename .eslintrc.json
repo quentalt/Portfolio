@@ -2,7 +2,7 @@
   "root": true,
   "extends": "next",
   "rules": {
-    "no-unused-vars": [
+    "react/no-unused-vars": [
       "error",
       {
         "argsIgnorePattern": "^_",
