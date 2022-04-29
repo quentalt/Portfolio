@@ -19,7 +19,6 @@ import Image from 'next/image'
 import {
     IoLogoGithub,
     IoLogoLinkedin,
-    IoLogoDiscord
 } from 'react-icons/io5'
 
 
