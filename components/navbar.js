@@ -16,7 +16,6 @@ import {
     useColorModeValue} from '@chakra-ui/react'
 import {HamburgerIcon} from '@chakra-ui/icons';
 import ThemeToogleButton from '../components/theme-toogle-button';
-import { IoLogoGithub } from 'react-icons/io5'
 
 
 const LinkItem = ({href,path, target, children, ...props}) => {
