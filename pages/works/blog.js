@@ -14,12 +14,7 @@ const Work = () => (
        Ajout de post sur un Blog
       </P>
       <List ml={4} my={4}>
-        <ListItem>
-          <Meta>Website</Meta>
-          <Link href="https://www.inkdrop.app/">
-            https://www.inkdrop.app/ <ExternalLinkIcon mx="2px" />
-          </Link>
-        </ListItem>
+   
         <ListItem>
           <Meta>Platform</Meta>
           <span>Windows/macOS/Linux/iOS/Android</span>
@@ -29,9 +24,6 @@ const Work = () => (
           <span>Symfony</span>
         </ListItem>
       </List>
-
-      <WorkImage src="/images/works/inkdrop_01.png" alt="Inkdrop" />
-      <WorkImage src="/images/works/inkdrop_02.png" alt="Inkdrop" />
     </Container>
   </Layout>
 )
