@@ -19,7 +19,6 @@ import Image from 'next/image'
 import {
     IoLogoGithub,
     IoLogoLinkedin,
-    IoLogoDiscord
 } from 'react-icons/io5'
 
 
@@ -119,11 +118,8 @@ const Accueil = () => {
                     </Paragraph> 
                     <Paragraph> J'aime les livres, bd, mangas</Paragraph>
                  <Paragraph>
-          Art, Musique, le dessin,{' '}
-          {/* <Link href="https://www.deviantart.com/anarkichust" target="_blank">
-            Dessin & dessin sur ordinateur
-          </Link> */}
-          , Modern dance, zumba, arts martiaux,{' '}
+          Art, Musique, le dessin,
+          , Modern dance, zumba, arts martiaux,
             Photographie
           , Langues, Machine Learning
         </Paragraph>
